@@ -725,60 +725,7 @@ export default function Home() {
               <Timeline.Item
                 data-aos="fade-left"
                 bullet={<IconGitBranch size={12} />}
-                title={
-                  <HoverCard
-                    width={320}
-                    shadow="md"
-                    withArrow
-                    openDelay={200}
-                    closeDelay={400}
-                  >
-                    <HoverCard.Target>
-                      <Anchor underline>
-                        <Flex align={"center"} gap={5}>
-                          BharosaPh
-                          <IconChevronDown size={"1rem"} />
-                        </Flex>
-                      </Anchor>
-                    </HoverCard.Target>
-                    <HoverCard.Dropdown>
-                      <Flex gap={5} direction={"column"}>
-                        <Flex gap={5}>
-                          <IconWorldWww size={"1rem"} />{" "}
-                          <Anchor
-                            size={"xs"}
-                            target="_blank"
-                            href="https://storagex.com.ph/"
-                          >
-                            https://storagex.com.ph/
-                          </Anchor>
-                        </Flex>
-                        <Divider></Divider>
-                        <Flex gap={5}>
-                          <IconBrandGooglePlay size={"1rem"} />{" "}
-                          <Anchor
-                            size={"xs"}
-                            target="_blank"
-                            href="https://play.google.com/store/apps/details?id=com.storagex.storagexcorp&pli=1"
-                          >
-                            Play Store
-                          </Anchor>
-                        </Flex>
-                        <Divider></Divider>
-                        <Flex gap={5}>
-                          <IconBrandAppstore size={"1rem"} />{" "}
-                          <Anchor
-                            size={"xs"}
-                            target="_blank"
-                            href="https://apps.apple.com/ph/app/storagex-smartlockers/id1576627937"
-                          >
-                            App Store
-                          </Anchor>
-                        </Flex>
-                      </Flex>
-                    </HoverCard.Dropdown>
-                  </HoverCard>
-                }
+                title="Bharosa Ph"
               >
                 <Text color="dimmed" size="sm">
                   using Flutter, I developed a mobile app.
