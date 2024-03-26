@@ -131,9 +131,7 @@ const slide1 = [
   { name: "Figma", imageLink: "/assets/mockup/washup3.png" },
 ];
 
-const slide2 = [
-  { name: "VSCode", imageLink: "/assets/mockup/cleanup1.png" },
-];
+const slide2 = [{ name: "VSCode", imageLink: "/assets/mockup/cleanup1.png" }];
 
 const slide3 = [
   { name: "Github", imageLink: "/assets/mockup/attendance1.png" },
@@ -223,7 +221,12 @@ export default function Home() {
                   <Title>KYLE DENNIS S. REGINALDO</Title>
                   <Space h={10} />
                   <Text>
-                  👋 Hello, I'm Kyle Reginaldo, a developer expert at creating mobile apps using Flutter and building backends with NestJS. My expertise extends to navigating Firebase, Supabase, and Google Cloud Platform (GCP). Explore my portfolio to see how I seamlessly integrate mobile and backend solutions for a comprehensive digital experience.
+                    👋 Hello, I'm Kyle Reginaldo, a developer expert at creating
+                    mobile apps using Flutter and building backends with NestJS.
+                    My expertise extends to navigating Firebase, Supabase, and
+                    Google Cloud Platform (GCP). Explore my portfolio to see how
+                    I seamlessly integrate mobile and backend solutions for a
+                    comprehensive digital experience.
                   </Text>
                   <Space h={10} />
                   <Flex gap={10}>
@@ -236,7 +239,7 @@ export default function Home() {
                     >
                       Contact Me
                     </Button>{" "}
-                    <Button component="a" href="cv.pdf" download>
+                    <Button component="a" href="reginaldo-cv.pdf" download>
                       Download CV
                     </Button>
                   </Flex>
@@ -634,7 +637,12 @@ export default function Home() {
                   data-aos="zoom-in"
                   cite="– Karl Reginaldo | Full Stack Developer"
                   color="blue"
-                >Introducing my little brother to Flutter and sharing some essential techniques with him has been a rewarding experience. It's been a pleasure to see his growth in mobile app development, and I'm proud to have been a part of his learning journey. His dedication and progress are truly commendable.
+                >
+                  Introducing my little brother to Flutter and sharing some
+                  essential techniques with him has been a rewarding experience.
+                  It's been a pleasure to see his growth in mobile app
+                  development, and I'm proud to have been a part of his learning
+                  journey. His dedication and progress are truly commendable.
                 </Blockquote>
               </Grid.Col>
               <Grid.Col span={12} sm={6} md={4}>
@@ -645,9 +653,12 @@ export default function Home() {
                 >
                   Sir{" "}
                   <Text color="blue" span weight={"bold"}>
-                  Kyle
+                    Kyle
                   </Text>{" "}
-                   has been a great help in building mobile apps and teaching me important developer skills. His commitment to on-time project delivery and attention to detail make him a strong candidate for a project manager role.
+                  has been a great help in building mobile apps and teaching me
+                  important developer skills. His commitment to on-time project
+                  delivery and attention to detail make him a strong candidate
+                  for a project manager role.
                 </Blockquote>
               </Grid.Col>
               <Grid.Col span={12} sm={6} md={4}>
@@ -665,41 +676,6 @@ export default function Home() {
                   design.
                 </Blockquote>
               </Grid.Col>
-              {/* <Grid.Col span={6} md={4}>
-                <Blockquote
-                  data-aos="zoom-in" cite="– Phol | Client" color="blue">
-                  Life is like an npm install – you never know what you are
-                  going to get.
-                </Blockquote>
-              </Grid.Col>
-              <Grid.Col span={6} md={4}>
-                <Blockquote
-                  data-aos="zoom-in" cite="– Ross Yson | Client" color="blue">
-                  Life is like an npm install – you never know what you are
-                  going to get.
-                </Blockquote>
-              </Grid.Col>
-              <Grid.Col span={6} md={4}>
-                <Blockquote
-                  data-aos="zoom-in" cite="– John | Client" color="blue">
-                  Life is like an npm install – you never know what you are
-                  going to get.
-                </Blockquote>
-              </Grid.Col>
-              <Grid.Col span={6} md={4}>
-                <Blockquote
-                  data-aos="zoom-in" cite="– Rodrigo Chiva | Client" color="blue">
-                  Life is like an npm install – you never know what you are
-                  going to get.
-                </Blockquote>
-              </Grid.Col>
-              <Grid.Col span={6} md={4}>
-                <Blockquote
-                  data-aos="zoom-in" cite="– Alden | Client" color="blue">
-                  Life is like an npm install – you never know what you are
-                  going to get.
-                </Blockquote>
-              </Grid.Col> */}
             </Grid>
           </Flex>
         </Container>
@@ -711,7 +687,7 @@ export default function Home() {
             <Space h={10} />
             <Text>
               Here is my timeline presenting experience over the past two years.
-              Since I was 20, my developer journey has been productive. My prior
+              Since I was 19, my developer journey has been productive. My prior
               job and coworkers have taught me a lot and given me a lot of
               experience.
             </Text>
