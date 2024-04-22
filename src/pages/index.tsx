@@ -721,7 +721,7 @@ export default function Home() {
                   Full-time · less than 1 year experience
                 </Text>
                 <Text size="xs" mt={4}>
-                  Davao, Philippines
+                  Manila, Philippines
                 </Text>
                 <Group mt={4}>
                   <Badge size="xs" color="red">
