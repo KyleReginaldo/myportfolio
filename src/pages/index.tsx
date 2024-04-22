@@ -179,8 +179,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Kyle Dennis S. Reginaldo</title>
-        <meta name="description" content="<K.D>" />
+        <title>Kyle Senaris</title>
+        <meta name="description" content="My Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" color="red" />
       </Head>
