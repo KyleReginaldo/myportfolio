@@ -180,9 +180,9 @@ export default function Home() {
     <>
       <Head>
         <title>Kyle Dennis S. Reginaldo</title>
-        <meta name="description" content="My Portfolio" />
+        <meta name="description" content="<K.D>" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" color="red" />
       </Head>
 
       {/* <div id="comment-section">
@@ -214,7 +214,7 @@ export default function Home() {
                   align={"start"}
                   data-aos="fade-right"
                 >
-                  <Title order={6} color="blue">
+                  <Title order={6} color="red">
                     Introduction
                   </Title>
                   <Space h={10} />
@@ -234,12 +234,18 @@ export default function Home() {
                     <Button
                       component="a"
                       variant="outline"
+                      color="red"
                       href="https://www.facebook.com/kyle.reginaldo.94"
                       target="_blank"
                     >
                       Contact Me
                     </Button>{" "}
-                    <Button component="a" href="reginaldo-cv.pdf" download>
+                    <Button
+                      component="a"
+                      color="red"
+                      href="reginaldo-cv.pdf"
+                      download
+                    >
                       Download CV
                     </Button>
                   </Flex>
@@ -255,7 +261,7 @@ export default function Home() {
                   {/* <Space h={10} /> */}
                   {/* <Blockquote
                     data-aos="zoom-in"
-                    color="blue"
+                    color="red"
                     cite="– Matthew Reilly"
                   >
                     <Text size={"sm"}>
@@ -408,6 +414,7 @@ export default function Home() {
                       sx={{ pointerEvents: "none" }}
                       variant="filled"
                       size="xs"
+                      color="red"
                       p={0}
                     >
                       {
@@ -425,6 +432,7 @@ export default function Home() {
                     <Badge
                       w={16}
                       h={16}
+                      color="red"
                       sx={{ pointerEvents: "none" }}
                       variant="filled"
                       size="xs"
@@ -442,6 +450,7 @@ export default function Home() {
                     <Badge
                       w={16}
                       h={16}
+                      color="red"
                       sx={{ pointerEvents: "none" }}
                       variant="filled"
                       size="xs"
@@ -459,6 +468,7 @@ export default function Home() {
                     <Badge
                       w={16}
                       h={16}
+                      color="red"
                       sx={{ pointerEvents: "none" }}
                       variant="filled"
                       size="xs"
@@ -476,6 +486,7 @@ export default function Home() {
                     <Badge
                       w={16}
                       h={16}
+                      color="red"
                       sx={{ pointerEvents: "none" }}
                       variant="filled"
                       size="xs"
@@ -621,10 +632,10 @@ export default function Home() {
                 <Blockquote
                   data-aos="zoom-in"
                   cite="– Kathlyn Jordan | UI/UX Designer"
-                  color="blue"
+                  color="red"
                 >
                   As a freelance UI/UX designer,{" "}
-                  <Text color="blue" span weight={"bold"}>
+                  <Text color="red" span weight={"bold"}>
                     Kyle
                   </Text>{" "}
                   has been an invaluable resource for me. He helped me to
@@ -636,7 +647,7 @@ export default function Home() {
                 <Blockquote
                   data-aos="zoom-in"
                   cite="– Karl Reginaldo | Full Stack Developer"
-                  color="blue"
+                  color="red"
                 >
                   Introducing my little brother to Flutter and sharing some
                   essential techniques with him has been a rewarding experience.
@@ -649,10 +660,9 @@ export default function Home() {
                 <Blockquote
                   data-aos="zoom-in"
                   cite="– Jannray Mostajo | Mobile App Developer"
-                  color="blue"
+                  color="red"
                 >
-                  Sir{" "}
-                  <Text color="blue" span weight={"bold"}>
+                  <Text color="red" span weight={"bold"}>
                     Kyle
                   </Text>{" "}
                   has been a great help in building mobile apps and teaching me
@@ -665,10 +675,10 @@ export default function Home() {
                 <Blockquote
                   data-aos="zoom-in"
                   cite="– Kimberly Bay | Graphic Designer"
-                  color="blue"
+                  color="red"
                 >
                   In terms of his thinking, Sir{" "}
-                  <Text color="blue" span weight={"bold"}>
+                  <Text color="red" span weight={"bold"}>
                     kyle
                   </Text>{" "}
                   is quite imaginative. He explains his concept to me using
@@ -697,11 +707,12 @@ export default function Home() {
               bulletSize={24}
               lineWidth={2}
               w={{ md: "50%" }}
+              color="red"
             >
               <Timeline.Item
                 data-aos="fade-left"
                 bullet={<IconGitBranch size={12} />}
-                title="Bharosa Ph"
+                title="XCube"
               >
                 <Text color="dimmed" size="sm">
                   using Flutter, I developed a mobile app.
@@ -713,7 +724,9 @@ export default function Home() {
                   Davao, Philippines
                 </Text>
                 <Group mt={4}>
-                  <Badge size="xs">Mobile App</Badge>
+                  <Badge size="xs" color="red">
+                    Mobile App
+                  </Badge>
                 </Group>
               </Timeline.Item>
 
@@ -725,7 +738,7 @@ export default function Home() {
                 lineVariant="dashed"
               >
                 <Text size="xs" mt={4}>
-                  June 2023 - today
+                  June 2023 - Feb 2024
                 </Text>
               </Timeline.Item>
 
@@ -736,7 +749,7 @@ export default function Home() {
                 title="Flutter Developer"
               >
                 <Text size="xs" mt={4}>
-                  Jun 2023 - today
+                  June 2023 - Feb 2024
                 </Text>
               </Timeline.Item>
 
@@ -756,7 +769,9 @@ export default function Home() {
                   Pasig City, Philippines
                 </Text>
                 <Group mt={4}>
-                  <Badge size="xs">Mobile App</Badge>
+                  <Badge size="xs" color="red">
+                    Mobile App
+                  </Badge>
                 </Group>
               </Timeline.Item>
             </Timeline>
@@ -773,6 +788,7 @@ export default function Home() {
                 bulletSize={24}
                 lineWidth={2}
                 w={{ md: "50%" }}
+                color="red"
               >
                 <Timeline.Item
                   data-aos="fade-left"
@@ -788,13 +804,27 @@ export default function Home() {
                     1 & 1/2 months
                   </Text>
                   <Group mt={4} position="right">
-                    <Badge size="xs">Blockchain</Badge>
-                    <Badge size="xs">Figma</Badge>
-                    <Badge size="xs">NodeJS</Badge>
-                    <Badge size="xs">Biometrics</Badge>
-                    <Badge size="xs">Flutter</Badge>
-                    <Badge size="xs">Asana</Badge>
-                    <Badge size="xs">Android and iOS</Badge>
+                    <Badge size="xs" color="red">
+                      Blockchain
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Figma
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      NodeJS
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Biometrics
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Flutter
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Asana
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Android and iOS
+                    </Badge>
                   </Group>
                 </Timeline.Item>
                 <Timeline.Item
@@ -811,15 +841,21 @@ export default function Home() {
                     1 month exp
                   </Text>
                   <Group mt={4} position="right">
-                    <Badge size="xs">Mobile App</Badge>
-                    <Badge size="xs">Flutter</Badge>
-                    <Badge size="xs">Android Only</Badge>
+                    <Badge size="xs" color="red">
+                      Mobile App
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Flutter
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Android Only
+                    </Badge>
                   </Group>
                 </Timeline.Item>
                 <Timeline.Item
                   data-aos="fade-right"
                   bullet={<IconGitBranch size={12} />}
-                  title="Laundry Booking App"
+                  title="Booking App"
                 >
                   <Text color="dimmed" size="sm">
                     Using this app, you may schedule laundry service for your
@@ -830,10 +866,18 @@ export default function Home() {
                     2 months exp
                   </Text>
                   <Group mt={4} position="right">
-                    <Badge size="xs">Firebase</Badge>
-                    <Badge size="xs">Figma</Badge>
-                    <Badge size="xs">Android and iOS</Badge>
-                    <Badge size="xs">Flutter</Badge>
+                    <Badge size="xs" color="red">
+                      Firebase
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Figma
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Android and iOS
+                    </Badge>
+                    <Badge size="xs" color="red">
+                      Flutter
+                    </Badge>
                   </Group>
                 </Timeline.Item>
               </Timeline>
