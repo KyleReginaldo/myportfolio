@@ -218,10 +218,10 @@ export default function Home() {
                     Introduction
                   </Title>
                   <Space h={10} />
-                  <Title>KYLE DENNIS S. REGINALDO</Title>
+                  <Title>KYLE SENARIS</Title>
                   <Space h={10} />
                   <Text>
-                    👋 Hello, I'm Kyle Reginaldo, a developer expert at creating
+                    👋 Hello, I'm Kyle Senaris, a developer expert at creating
                     mobile apps using Flutter and building backends with NestJS.
                     My expertise extends to navigating Firebase, Supabase, and
                     Google Cloud Platform (GCP). Explore my portfolio to see how
