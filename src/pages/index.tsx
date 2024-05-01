@@ -149,6 +149,9 @@ const frameworks = [
 const services = [
   { name: "Supabase", imageLink: "/assets/stacks/supabase.png" },
   { name: "Firebase", imageLink: "/assets/stacks/firebase.png" },
+  { name: "SendGrid", imageLink: "/assets/stacks/sendgrid.png" },
+  { name: "Twilio", imageLink: "/assets/stacks/twilio.png" },
+  { name: "Stripe", imageLink: "/assets/stacks/stripe.png" },
 ];
 
 const tools = [
